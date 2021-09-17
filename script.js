@@ -19,7 +19,4 @@ function computeInterest() {
   totalSpan.textContent = amount
 }
 
-principalBox.addEventListener('input', computeInterest)
-interestRateBox.addEventListener('input', computeInterest)
-numberOfCompoundsBox.addEventListener('input', computeInterest)
-numberOfYearsBox.addEventListener('input', computeInterest)
+document.getElementById("submit").addEventListener("click", computeInterest)
