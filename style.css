@@ -21,8 +21,15 @@ h1 {
   text-shadow: -2px 1px cyan;
   margin: 0;
   font-size: 35px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0.25s;
   font-family: Trattatello, fantasy;
   border: dotted;
+}
+
+h1:hover {
+  font-size: 50px;
 }
 
 div {
@@ -52,4 +59,4 @@ footer {
 footer:hover {
     color: white;
     cursor: pointer;
-  }
+}
